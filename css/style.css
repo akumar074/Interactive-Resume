@@ -1,0 +1,289 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: rgb(243,239,224);
+}
+
+.navbar-brand img{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+
+.navbar-toggle span{
+	background-color: #60eeff;
+}
+.navbar{
+	height: 50px;
+
+}
+
+.affix{
+	background-color: black;
+}
+
+#navbar ul{
+	float: right;
+
+}
+
+#navbar ul li{
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#navbar ul li a{
+	color: #dbdbdb;
+}
+
+
+.jumbotron{
+	position: relative;
+	height: 678px;
+	text-align: center;
+	background: no-repeat center center fixed url('../img/showcase-bg.jpg');
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width:100%;
+	z-index: -5px;
+	background-color: rgba(28,28,28,0.3);
+}
+
+.jumbotron h1{
+	border-bottom: 1px solid white;
+	z-index: 99999;
+}
+
+.jumbotron .container{
+	padding: 17% 25%;
+}
+
+.header{
+	text-align: center;
+	padding:20px;
+	margin: 10px 0 10px 0;
+	border-bottom: 1px solid #c9cacc;
+}
+
+.header h1{
+	font-size: 54px;
+}
+
+.header p{
+	font-size: 20px;
+}
+
+.profile-body{
+	margin: 50px 15%;
+	padding-left: 3px;
+	text-align: center;
+}
+
+.profile-body img{
+	border: 10px solid #edefef;
+	border-radius: 50%;
+}
+
+.aboutme{
+	
+}
+
+.details{
+	padding-top: 20px;
+	
+}
+
+blockquote{
+	border: none;
+}
+
+.experiences {
+	background: no-repeat center center fixed url('../img/exp-bg.jpg'); 
+}
+
+.education h2{
+
+}
+
+.experiences .header{
+	margin: 0 !important;
+}
+.exp-body{
+	width: 80%;
+	margin: 60px auto;
+}	
+
+.exp-body h2,h3,h4{
+	padding-top: 20px;
+}
+
+.skills{
+	padding-bottom: 80px;
+	border-bottom:1px solid #c9cacc;
+}
+.skills h2{
+	width: 80%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.lang-logo{
+	padding-top: 50px;
+}
+
+.lang-logo img{
+	height: 190px;
+	width: 230px;
+	padding: 0;
+	margin: 0;
+}
+
+.language, .tools{
+	width: 80%;
+	margin: 50px auto;
+}
+.language h2,.tools h2{
+	margin-bottom: 30px;
+}
+
+.language ul,.tools ul{
+	list-style: none;
+}
+
+.language ul li,.tools ul li{
+	padding: 10px;
+}
+
+.language ul li:hover,.tools ul li:hover{
+	background-color: #c6ccc5;
+}
+
+.ability-score{
+	float: right;
+}
+
+.glyphicon{
+	color: #dbdbdb !important;
+}
+
+.filled{
+	color: #30d31b !important;
+}
+
+.projects{
+	background:	no-repeat fixed center center url('../img/project-bg2.jpg');
+	color: white;
+}
+
+.projects footer{
+	color: white;
+}
+
+.projects-img {
+	margin:50px 0 80px 0 !important;
+}
+
+.projects-img img{
+	height: 260px;
+	width: 100%;
+	border: 3px outset #fff;
+	margin:20px 0; 
+}
+
+#footer{
+	background-color: rgb(22,22,22);
+	color: white;
+	text-align: center;
+}
+
+.social-net{
+	margin: 50px 0;
+	font-size: 18px;
+	padding-bottom: 100px;
+}
+
+.social-net .row{
+	padding-bottom: 10px;
+}
+
+/********Media Queries*******/
+
+@media(min-width: 991px){
+
+	.lang-logo{
+		width: 85%;
+		margin: auto !important;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 990px){
+		
+	.jumbotron{
+		height: 500px !important;
+		background-size: 100% 100%;
+	}
+	
+	.jumbotron h1{
+		margin-top: auto;
+	}
+
+	.exp-body{
+		width: 75%;
+		margin: 40px auto;
+	}
+}
+
+@media(max-width: 768px){
+	
+	.jumbotron{
+		height: 350px !important;
+		background-size: 100% 100%;
+	}
+
+	.jumbotron h1{
+		margin-top: 10px;
+	}
+
+	.exp-body{
+		width: 75%;
+		margin: 10% auto;
+	}
+}
+
+@media(max-width: 509px){
+	
+	.jumbotron{
+		height: 450px !important;
+		background-image: none;
+		background-color: black;
+		text-align: center;
+	}
+
+		.jumbotron h1{
+		margin-top: 50px;
+	}
+
+	.skills,.lang-logo{
+		width: 70%;
+		margin: auto;
+	}
+
+	.exp-body{
+		width: 75%;
+		margin: 10% auto;
+	}
+
+	.contact{
+		height: 500px;
+	}
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
