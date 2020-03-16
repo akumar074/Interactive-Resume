@@ -38,7 +38,7 @@ body{
 
 .jumbotron{
 	position: relative;
-	height: 678px;
+	height: 100vh;
 	text-align: center;
 	background: no-repeat center center fixed url('../img/showcase-bg.jpg');
 	color: white;
@@ -60,7 +60,7 @@ body{
 }
 
 .jumbotron .container{
-	padding: 17% 25%;
+	padding: 17% 15%;
 }
 
 .header{
